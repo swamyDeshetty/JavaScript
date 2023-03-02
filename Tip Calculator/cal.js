@@ -66,6 +66,7 @@ const decreasePeople = () => {
   // if amount is 1 or less simply return
   // (a.k.a you can't decrease the number of people to 0 or negative!)
   if (numberOfPeople <= 1) {
+    alert("Number of people is must not be less than one person")
     return
   }
 
