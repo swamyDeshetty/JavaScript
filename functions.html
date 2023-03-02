@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions in js</title>
+</head>
+<body>
+    <p id="name">java</p>
+    <script>
+        
+        document.getElementById('name').innerHTML="python is easy to learn";
+
+        function hello(){
+            document.getElementById('name').innerHTML= "Django is webframework of python"
+            window.alert('js')
+            //If we use the onclick event we dont call the function becoz the onclick event is not works if we call the function
+        }
+        // hello();
+    </script>
+    <input type="button" value="click here" onclick="hello()" />
+    <br>
+    <div style="color: powderblue; text-transform: capitalize;">
+    <script>
+        function age(){
+            document.write('Msd is the bestfinisher in the world..')
+        }
+        age();
+</script>
+</div>
+
+<p><h4>FUNCTIONS WITH ARGUEMENTS..</h4></p>
+<script>
+    function multiply(number){
+        alert(number*number)
+        document.write(number**3)
+    }
+    //multiply(2)
+</script>
+<input type="button" value="Clickme" onclick="multiply(2)">
+
+ <b>
+ <p>Function with the return statements</p> </b>
+<script>
+    function maths(number){
+        return number + number;
+        document.write('hello')
+        //statements after the return are not called the execution of code is stops after the return statement....
+    }
+</script>
+<script>
+document.write(maths(10))
+
+</script>
+</body>
+</html>

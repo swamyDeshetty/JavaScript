@@ -1,0 +1,27 @@
+<!-- 
+<style>
+   #yellow{
+    margin: -100px 1% 1% 142px;
+    }
+</style> -->
+
+<h2 id="title">Hello world</h2>
+<div style="display: flex">
+<button class="colorSquare" id="red" style="height: 100px; width: 100px; background-color: red;"></button>
+<button class="colorSquare" id="yellow" style="height: 100px; width: 100px; background-color:yellow;"></button>
+<button class="colorSquare" id="green" style="height: 100px; width: 100px; background-color:green"></button>
+</div>
+<script>
+    
+let red=document.getElementById('red')
+let yellow=document.getElementById('yellow')
+let green=document.getElementById('green')
+
+red.onclick=() =>console.log('red')
+red.onclick=() =>console.log('yellow')
+red.onclick=() =>console.log('green')
+
+const squares=document.querySelectorAll('.colorSquare')
+console.log(squares)
+
+</script>

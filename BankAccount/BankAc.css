@@ -1,0 +1,9 @@
+.wrapper {
+    height: 100px;
+    width: 360px;
+    color: white;
+    background: #272639;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 54px auto;
+  }

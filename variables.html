@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables in Javascript</title>
+</head>
+<body>
+    
+    <script>
+        var x =20;
+        document.write(x);
+        window.alert(x)
+
+        var y=30;
+        var x=40;
+        document.write(x+y);
+        document.getElementById('age').innerHTML=40;
+    </script>
+    <p id="age">Swamy age is the 20</p>
+
+    <h3>localvariable</h3>
+
+    <script>
+        function maths1(){
+            var x =22; // it is the local variable...
+            document.write('Swamy age is ' + x)
+        }
+        maths1()
+    </script>
+    <script>
+        function close(){
+            var book =40; //it is the local variable..
+
+        }
+        document.write('book price is the' + book) //it is the localvaraible we cant use this outside the function..
+        close()
+
+    </script>
+    <h4>Global Variable</h4>
+    <script>
+        var k =20 ; //it is global variable ..
+        function value(){
+            document.write('The number is the' + k)
+        }
+        document.write('fav number is ' + k) // we can use outside the function
+        value();
+    </script>
+    
+</body>
+</html>
