@@ -23,9 +23,7 @@ class Bank {
   console.log(swamychecking.balance)
   swamychecking.deposit(100)
   swamychecking.withdraw(100)
-  swamychecking.withdraw(100)
-  swamychecking.withdraw(100)
-  swamychecking.withdraw(100)
+ 
   
   const depositbutton = document.getElementById('deposit')
   const withdrawbutton = document.getElementById('withdraw')
